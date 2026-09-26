@@ -1,0 +1,15 @@
+# Default behavior
+*.htm linguist-vendored
+*.bat text eol=crlf
+*.html linguist-vendored
+Cargo.lock linguist-generated
+yarn.lock linguist-generated
+
+*.sh text eol=lf
+
+*.tsx linguist-detectable
+
+*.map linguist-generated
+*.json linguist-detectable=false
+
+*.jpeg binary
